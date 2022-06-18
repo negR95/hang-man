@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, rgb(60, 137, 253), rgb(245, 75, 103));
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.btn-letter {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5rem;
+  max-height: 100vh;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: minmax(50px, auto) repeat(5, 50px);
+}
+
+.btn-letter > button {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.75);
+  outline: none;
+}
+
+.btn-letter > button:hover {
+  background: linear-gradient(to right, rgb(60, 137, 253), rgb(245, 75, 103));
+  color: white;
+}
+
+#input-letter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.emoji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.game {
+  text-align: center;
+}
+
+#new-game {
+cursor: pointer;
+margin-top: 4rem;
+font-size: 3rem;
+border: 1px solid white;
+border-radius: 10px;
+background: linear-gradient(to right, rgb(60, 137, 253), rgb(245, 75, 103));
+outline: none;
+color: white;
+}
+
+#new-game:hover {
+  background: linear-gradient(to left, rgb(60, 137, 253), rgb(245, 75, 103));
+  color: black;
+}
