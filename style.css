@@ -2,7 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -42,9 +42,10 @@ h1 {
 .btn-letter > button:hover {
   background: linear-gradient(to right, rgb(60, 137, 253), rgb(245, 75, 103));
   color: white;
+  border: none;
 }
 
-#input-letter{
+#input-letter {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,6 +57,7 @@ h1 {
   justify-content: center;
   align-items: center;
   font-size: 5rem;
+  margin-top: 1.5rem;
 }
 
 .game {
@@ -63,17 +65,18 @@ h1 {
 }
 
 #new-game {
-cursor: pointer;
-margin-top: 4rem;
-font-size: 3rem;
-border: 1px solid white;
-border-radius: 10px;
-background: linear-gradient(to right, rgb(60, 137, 253), rgb(245, 75, 103));
-outline: none;
-color: white;
+  cursor: pointer;
+  margin-top: 4rem;
+  font-size: 3rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(60, 137, 253), rgb(245, 75, 103));
+  outline: none;
+  color: white;
 }
 
 #new-game:hover {
   background: linear-gradient(to left, rgb(60, 137, 253), rgb(245, 75, 103));
   color: black;
+  border: none;
 }
